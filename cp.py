@@ -15,7 +15,7 @@ guesses=0
 while guesses<3:
     guess= int(input('enter a number from 1 to 10: '))
     guesses=guesses+1
-    print('this is your %d guesses' %guesses)
+    print('this is your %d guess' %guess)
     if guess < number:
         print('you guessed too low')
     elif guess > number:
@@ -27,4 +27,3 @@ if guess == number:
 
 if guess != number:
        print("The secret number was", number)
- hn 
