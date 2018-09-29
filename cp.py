@@ -17,7 +17,7 @@ while guesses<3:
     guesses=guesses+1
     print('this is your %d guess' %guess)
     if guess < number:
-        print('you guessed too low')
+        print  ('you guessed too low')
     elif guess > number:
         print('you guessed too high')
     elif guess==number:
